@@ -132,6 +132,34 @@
   footer{border-top:1px solid var(--line);padding:34px 0;color:#8a857b;font-size:13px;text-align:center;}
   footer .src{margin-top:8px;font-size:12px;color:#a29c90;}
 
+  /* ===== VIDEO / CM ===== */
+  .cm-player{position:relative;background:#000;border-radius:16px;overflow:hidden;border:1px solid var(--line);box-shadow:0 8px 30px rgba(0,0,0,.12);}
+  .cm-player video{width:100%;display:block;aspect-ratio:16/9;}
+  .video-cap{padding:16px 20px;background:var(--white);border:1px solid var(--line);border-top:none;border-radius:0 0 16px 16px;}
+  .video-cap b{font-family:'Noto Serif TC',serif;font-size:18px;color:var(--ink);}
+  .video-cap small{display:block;color:#8a857b;font-size:13px;margin-top:4px;}
+
+  /* ===== DOWNLOADS ===== */
+  .dl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;}
+  .dl-card{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:26px 24px;display:flex;flex-direction:column;}
+  .dl-card .ftype{font-size:12px;letter-spacing:2px;color:var(--terra);text-transform:uppercase;margin-bottom:10px;}
+  .dl-card h3{font-size:20px;font-weight:700;color:var(--ink);margin-bottom:8px;}
+  .dl-card p{color:#5a574f;font-size:14.5px;flex:1;margin-bottom:16px;}
+  .dl-card .size{font-size:12.5px;color:#8a857b;margin-bottom:12px;}
+  .dl-card .btn{align-self:flex-start;}
+  .dl-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;}
+  .dl-links .btn-ghost{border-color:var(--line);color:var(--ink);padding:9px 16px;font-size:13.5px;}
+  .dl-links .btn-ghost:hover{border-color:var(--terra);color:var(--terra);}
+
+  /* ===== FAQ ===== */
+  .faq{max-width:780px;margin:0 auto;}
+  .faq-item{background:var(--white);border:1px solid var(--line);border-radius:12px;margin-bottom:12px;overflow:hidden;}
+  .faq-item summary{cursor:pointer;padding:18px 22px;font-weight:700;font-family:'Noto Serif TC',serif;font-size:17px;color:var(--ink);list-style:none;display:flex;justify-content:space-between;align-items:center;}
+  .faq-item summary::-webkit-details-marker{display:none;}
+  .faq-item summary::after{content:"＋";color:var(--terra);font-size:20px;transition:transform .2s;}
+  .faq-item[open] summary::after{content:"－";}
+  .faq-item .faq-a{padding:0 22px 18px;color:#5a574f;font-size:15px;border-top:1px dashed var(--line);padding-top:14px;}
+
   @media(max-width:640px){
     nav .links{display:none;}
     .sp-item{grid-template-columns:1fr;gap:14px;}
@@ -149,6 +177,9 @@
       <a href="#facts">賽事</a>
       <a href="#packages">套票</a>
       <a href="#itin">行程</a>
+      <a href="#video">CM</a>
+      <a href="#downloads">下載</a>
+      <a href="#faq">FAQ</a>
       <a href="#cost">預算</a>
     </div>
   </div>
@@ -359,6 +390,90 @@
         <span><b>3・訂酒店</b>近 Sanam Luang</span>
         <span><b>4・開跑</b>11月29日</span>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="video" style="background:var(--paper-2);">
+  <div class="wrap">
+    <div class="kicker">Watch</div>
+    <h2 class="sec-title">我哋嘅 CM 宣傳片</h2>
+    <p class="sec-intro">4.5K 親子跑・曼谷親子快閃之旅，25 秒一次過睇晒。癡LS Group 製作。</p>
+    <div class="cm-player">
+      <video controls preload="none" poster="assets/cm-poster.jpg">
+        <source src="video/CM-曼谷親子快閃跑2026.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="video-cap"><b>CM・曼谷親子快閃跑 2026</b><small>4.5K 親子跑・11.29（日）｜請1日假快閃3日｜癡LS Group 主辦</small></div>
+  </div>
+</section>
+
+<section id="downloads">
+  <div class="wrap">
+    <div class="kicker">Download</div>
+    <h2 class="sec-title">下載中心</h2>
+    <p class="sec-intro">行程單張、宣傳圖卡同 CM 宣傳片，全部齊晒。歡迎下載轉發，帶埋屋企人一齊跑。</p>
+    <div class="dl-grid">
+      <div class="dl-card">
+        <div class="ftype">PDF · 行程</div>
+        <h3>3日3夜行程單張</h3>
+        <p>完整行程、4.5K 親子跑資料、費用分項、報名時間線，一頁搞掂。</p>
+        <div class="size">PDF · ~100 KB</div>
+        <a class="btn btn-primary" href="downloads/itinerary.pdf" download>下載行程 PDF</a>
+      </div>
+      <div class="dl-card">
+        <div class="ftype">MP4 · 宣傳片</div>
+        <h3>25 秒 CM 宣傳片</h3>
+        <p>4.5K 親子跑・曼谷親子快閃之旅，可直接轉發或放社交平台。</p>
+        <div class="size">MP4 · ~8.5 MB</div>
+        <a class="btn btn-primary" href="video/CM-曼谷親子快閃跑2026.mp4" download>下載 CM</a>
+      </div>
+      <div class="dl-card">
+        <div class="ftype">PNG · 圖卡</div>
+        <h3>社交媒體圖卡 ×5</h3>
+        <p>公佈／親子跑／請假／賣點／拉友 5 張 1080×1350 圖卡，fb／IG 即出。</p>
+        <div class="size">PNG · 5 張</div>
+        <a class="btn btn-primary" href="promo/cards/card-announce.png" download>下載圖卡</a>
+      </div>
+    </div>
+    <div class="dl-links">
+      <a class="btn btn-ghost" href="promo/cards/card-races.png" download>圖卡·親子跑</a>
+      <a class="btn btn-ghost" href="promo/cards/card-leave.png" download>圖卡·請假</a>
+      <a class="btn btn-ghost" href="promo/cards/card-value.png" download>圖卡·賣點</a>
+      <a class="btn btn-ghost" href="promo/cards/card-friends.png" download>圖卡·拉友</a>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="background:var(--paper-2);">
+  <div class="wrap">
+    <div class="kicker">FAQ</div>
+    <h2 class="sec-title">常見問題</h2>
+    <div class="faq">
+      <details class="faq-item">
+        <summary>4.5K 親子跑係咩？要唔要跑得好快？</summary>
+        <div class="faq-a">4.5K 親子跑係唔計時、唔競速嘅玩樂跑，行 + 跑都得，1 小時時限非常寬鬆。大人細路老幼都做到，完全冇壓力，跑完仲有大把時間歎曼谷。</div>
+      </details>
+      <details class="faq-item">
+        <summary>點樣報名？一個 email 報唔報到多個距離？</summary>
+        <div class="faq-a">去官方網站 amazingthailandmarathon.com 報名，2026年7月3日–10月31日，早鳥最抵。4.5K Regular ฿700。一個 email 只可報一個距離，要加報 42K／10K 要用唔同 email。</div>
+      </details>
+      <details class="faq-item">
+        <summary>BIB 號碼布點攞？</summary>
+        <div class="faq-a">必須親身（或授權）到 Expo 領取，11月26–28日 @ 詩麗吉皇后國家會議中心，不設郵寄，賽事當日亦唔派。</div>
+      </details>
+      <details class="faq-item">
+        <summary>要唔要簽證？</summary>
+        <div class="faq-a">香港護照去泰國短期旅遊免簽證，直航約 3 小時即到曼谷。</div>
+      </details>
+      <details class="faq-item">
+        <summary>機票酒店點安排？大概幾錢？</summary>
+        <div class="faq-a">建議 HK Express 直航（去 UO734 21:40 / 返 UO703 19:45，來回約 HK$1,814）。住宿可揀近 Sanam Luang 起點嘅 Khao San 區，HK$59–74/晚。連機票酒店報名全套約 HK$3,300。</div>
+      </details>
+      <details class="faq-item">
+        <summary>「請1日假快閃3日」係點解？</summary>
+        <div class="faq-a">星期五收工後飛（當日照返工），星期六、日、一玩足 3 日，星期一晚返港。全程只請星期一日假。</div>
+      </details>
     </div>
   </div>
 </section>
