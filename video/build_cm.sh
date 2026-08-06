@@ -25,9 +25,9 @@ TRANS=(fadeblack slideleft dissolve circleopen fadeblack slideleft dissolve circ
 FG="[0:v][1:v]xfade=transition=${TRANS[0]}:duration=$FD:offset=${OFFS[0]}[x1]"
 PREV=x1
 for i in 2 3 4 5 6 7 8; do
-  j=$((i+1))
-  FG="$FG;[${PREV}][$j:v]xfade=transition=${TRANS[$((i-1))]}:duration=$FD:offset=${OFFS[$((i-1))]}[x$j]"
-  PREV="x$j"
+  idx=$((i-1))
+  FG="$FG;[${PREV}][$i:v]xfade=transition=${TRANS[$idx]}:duration=$FD:offset=${OFFS[$idx]}[x$i]"
+  PREV="x$i"
 done
 FG="${FG};[${PREV}]format=yuv420p[vout]"
 
