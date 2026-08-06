@@ -1,79 +1,79 @@
-# CM 影片分鏡 — 「曼谷快閃雙馬」2026
+# CM 影片分鏡 — 「曼谷親子快閃跑」2026（4.5K 親子跑版本）
 
-**目標**：15–20 秒短 CM，跑旅宣傳。MiniMax H3 I2V（native 音效）+ ffmpeg xfade 接駁 + 旁白。
+**目標**：15–20 秒短 CM，親子跑旅宣傳。MiniMax H3 I2V（native 音效）+ ffmpeg xfade 接駁 + 旁白。
 
-**風格基調**：鮮活熱情（泰式紅金）+ 運動感。都市夜景燈光 + 凌晨晨光過渡，呈現「快閃雙馬」既兩日兩場 + 凌晨起步嘅獨特感。
+**風格基調**：溫暖親子 + 泰式紅金、都市→晨光過渡、運動感、繽紛歡樂。主角係一家大細。
 
-**統一意象**：紅色/金色調、曼谷天際線 + 大皇宮剪影、跑者剪影、凌晨涼風、泰式美食。全程用全新生成素材（唔重用舊 CM）。
+**統一意象**：紅色/金色調、曼谷天際線 + 大皇宮剪影、一家大細跑步剪影、泰式美食。全程用全新生成素材（唔重用舊 CM）。
 
 ---
 
 ## 分鏡（9 幕 · 每幕 ~2.2s）
 
-### S1 — 開場：凌晨曼谷都市覺醒
-- **畫面**：曼谷天際線日出前，深藍到橙紅漸變，城市燈光未熄，跑者剪影喺前景熱身
-- **Motion (EN)**：slow aerial push toward Bangkok skyline at dawn, runners silhouetted in foreground stretching, city lights glowing, warm red-orange sunrise breaking, no text
-- **Audio 線**：whoosh + 鳥鳴/城市漸醒環境聲
-- **字幕**：一個週末，兩場馬拉松
+### S1 — 開場：曼谷親子週末覺醒
+- **畫面**：曼谷天際線日出，一家大細喺前景熱身、開心準備親子跑
+- **Motion (EN)**：slow warm push toward a happy family stretching at dawn in Bangkok, city skyline glowing, gentle golden light, joyful mood
+- **Audio**：whoosh + 清晨鳥鳴環境
+- **字幕**：一家大細・跑入曼谷
 
-### S2 — 星期六 21K 半馬起步（凌晨4點）
-- **畫面**：凌晨街道，起跑線人群，號碼布跑手整裝，路燈下涼爽晨霧
-- **Motion**：runners at start line at night, steam rising in cool air, race lights, energetic crowd energy, forward tracking behind runners
-- **Audio**：起跑槍聲 + 人群歡呼
-- **字幕**：星期六 21K・凌晨4點
+### S2 — 4.5K 親子跑起步（週日 06:45）
+- **畫面**：Sanam Luang 前繽紛親子起步線，氣球彩帶，大人細路一齊
+- **Motion**：families with kids at a colorful fun run start line, balloons and ribbons, cheerful festive morning
+- **Audio**：歡呼 + 彩帶聲
+- **字幕**：4.5K 親子跑・06:45
 
-### S3 — 半馬沿途：曼谷地標
-- **畫面**：跑手跑過大皇宮金頂 / 民主紀念碑，紅金建築燈光
-- **Motion**：runner passing golden Grand Palace spires at dawn, warm golden light on ornate Thai architecture, camera glides alongside
-- **Audio**：腳步聲 + 城市風聲
+### S3 — 親子沿途・曼谷地標
+- **畫面**：一家大細跑過大皇宮金頂，細路開心跳住跑，旁觀打氣
+- **Motion**：family running together past golden Grand Palace spires, kids running happily, spectators cheering
+- **Audio**：腳步聲 + 打氣聲
 - **字幕**：跑入曼谷心臟
 
-### S4 — 星期日 42K 全馬（凌晨2點）
-- **畫面**：更早凌晨，皇家田廣場前，42K 起步，數千跑手燈海
-- **Motion**：huge pack of runners surging under floodlights at 2am, sea of headlamps, monumental scale, low dramatic angle
-- **Audio**：低沉心跳節拍 + 人群
-- **字幕**：星期日 42K・凌晨2點
+### S4 — 一家衝線
+- **畫面**：一家大細一齊衝過終點線，彩帶，拎住獎牌慶祝
+- **Motion**：family crossing the finish line together, confetti falling, celebrating with medals, joyful smiles
+- **Audio**：慶祝歡呼
+- **字幕**：一家一齊衝線
 
-### S5 — 平坦快路・破PB
-- **畫面**：清晨直路，跑手大步快跑，地平線平直，涼風
-- **Motion**：long flat road, runner striding fast in cool morning light, flags and barriers, speed lines, confident pace
-- **Audio**：輕快跑步節奏 + 風
-- **字幕**：世界田徑認證・平坦快路
-
-### S6 — 衝線・泰式盛宴
-- **畫面**：Sanam Luang 終點，衝線帶，然後切泰式美食（冬陰功/芒果糯米飯）盛宴，跑手開心食
-- **Motion**：runner crossing finish line, confetti, then a spread of Thai food, joyful celebration, bright warm tones
-- **Audio**：歡呼聲 + 泰式音樂
+### S5 — 完賽泰式盛宴
+- **畫面**：一家人食泰式完賽盛宴（芒果糯米飯/冬陰功）
+- **Motion**：family enjoying Thai food celebration after the run, mango sticky rice, happy together
+- **Audio**：輕快泰式音樂
 - **字幕**：衝線即刻泰式大餐
 
-### S7 — 放假快閃（請1放4）
-- **畫面**：週一輕鬆半日：大皇宮打卡、河畔、購物手信，悠閒
-- **Motion**：tourist moments at Grand Palace and river, relaxed sightseeing, golden afternoon, light bokeh
+### S6 — 請1放4・快閃曼谷
+- **畫面**：週一輕鬆，一家喺大皇宮/河畔打卡、購物
+- **Motion**：family sightseeing at Grand Palace and river, relaxed holiday, golden afternoon
 - **Audio**：輕快悠閒音樂
 - **字幕**：請1日假・快閃4日
 
-### S8 — 與跑友同行 / 家庭
-- **畫面**：跑友群一齊影相、小朋友親子跑，笑容
-- **Motion**：group of runner friends celebrating together, family kids running, warm candid shots, sunset glow
+### S7 — 曼谷夜市親子時光
+- **畫面**：一家行夜市，繽紛攤檔、暖燈、街頭小食
+- **Motion**：family strolling through a lively Bangkok night market, colorful food stalls, warm lantern light
+- **Audio**：夜市人聲 + 音樂
+- **字幕**：夜市・美食・親子時光
+
+### S8 — 家庭同樂
+- **畫面**：幾組家庭一齊影相，拎住獎牌，夕陽暖光
+- **Motion**：group of families posing together at the race, smiling, holding medals, sunset glow
 - **Audio**：笑聲 + 溫馨音樂
-- **字幕**：大人全馬・小朋友親子跑
+- **字幕**：大人細路・全家同樂
 
 ### S9 — 收尾 CTA
-- **畫面**：Kipchoge 式跑手剪影奔向終點線，紅金煙花/彩帶，站標語
-- **Motion**：runner silhouette running toward golden finish arch, celebratory ribbons in red and gold, cinematic hero shot, slow motion
+- **畫面**：一家大細剪影跑向金色終點拱門，紅金彩帶，戲劇性背光
+- **Motion**：family silhouette running toward golden finish arch, red and gold ribbons, cinematic hero shot
 - **Audio**：振奮鼓點 + 彩帶聲
-- **字幕**：Amazing Thailand Marathon Bangkok 2026・11.28–29・報名趁早鳥
+- **字幕**：Amazing Thailand Marathon Bangkok 2026・11.29・報名趁早鳥
 
 ---
 
 ## 旁白（edge-tts zh-HK-WanLungNeural，粵語 CTA）
 ```
-一個週末，兩場馬拉松。
-星期六半馬，星期日全馬。
-世界田徑認證，平坦快路，凌晨起步涼爽破 PB。
+一家大細，跑入曼谷。
+四點五公里親子跑，人人都做到。
+首都馬拉松週末，唔使練跑，一齊衝線。
 衝線即刻泰式盛宴，請一日假，快閃四日。
 Amazing Thailand Marathon Bangkok 2026，
-十一月二十八、二十九日，報名趁早鳥！
+十一月二十九日，報名趁早鳥！
 ```
 *(逐句分段 TTS，記錄 ffprobe 時長，累加做 SRT 字幕 — 沿用 golden sync pattern)*
 
@@ -85,8 +85,9 @@ Amazing Thailand Marathon Bangkok 2026，
 - 每幕 `trim=DUR → scale=832:480 → setsar=1`，`setsar=1` + `-aspect 16:9` 防 DAR 誤讀 4:3
 - `xfade=transition=T:duration=FD:offset=i*STEP`，STEP=DUR-FD
 - 轉場：fadeblack / slideleft / dissolve / circleopen 交替
+- 場景檔：`video/scenes/s1..s9.mp4`（H3 I2V 已含 native audio）
 
-## 待生成（下一階段）
-- ComfyUI z_image_turbo：9 張 1280×720 場景圖（`video/prompts/s*.txt`）
-- MiniMax H3 I2V：9 段 832×480 24fps，每段 ~50-65 frames，native audio
-- ffmpeg 接駁 + 旁白 + 字幕 → `video/CM-曼谷快閃雙馬2026.mp4`
+## 待完成
+- H3 I2V 9 幕渲染（`video/render_all_h3.py`）→ `video/scenes/s*.mp4`
+- edge-tts 旁白分段 + whoosh → `video/voice/`
+- `video/build_cm.sh` → `video/CM-曼谷親子快閃跑2026.mp4`

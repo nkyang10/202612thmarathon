@@ -77,23 +77,23 @@ def make_card(name, image_path, kicker, title, body, accent=TERRA, img_h=520):
 
 # --- cards ---
 make_card("card-announce.png", "assets/hero_cover.jpg", "SAVE THE DATE",
-          "曼谷快閃雙馬", ["一個週末，兩場馬拉松", "星期六 21K ・ 星期日 42K", "請1日假，快閃4日"],
+          "曼谷親子快閃跑", ["4.5K 親子跑，人人都做到", "大人細路一齊衝線", "請1日假，快閃4日"],
           accent=TERRA)
 
-make_card("card-races.png", "assets/save1.jpg", "DOUBLE MARATHON",
-          "一個週末", ["11/28（六）凌晨4點 · 21K 半馬", "11/29（日）凌晨2點 · 42K 全馬", "世界田徑認證・平坦快路 PB"],
+make_card("card-races.png", "assets/save1.jpg", "FAMILY RUN",
+          "4.5K 親子跑", ["11/29（日）06:45 起步", "唔計時・行+跑都得", "一家人齊齊玩"],
           accent=GREEN, img_h=500)
 
 make_card("card-leave.png", "assets/save6.jpg", "請1放4",
-          "快閃4日", ["星期五晚放工飛", "星期六日跑兩場", "星期一晚返港・只請 1 日假"],
+          "快閃4日", ["星期五晚放工飛", "星期六玩足一日", "星期一晚返港・只請 1 日假"],
           accent=GOLD, img_h=500)
 
 make_card("card-value.png", "assets/header.jpg", "抵玩之旅",
-          "約HK$3,700", ["機票來回直航 ~HK$1,814", "住宿3晚近起點 ~HK$200", "雙馬報名費 ~HK$660"],
+          "約HK$3,300", ["機票來回直航 ~HK$1,814", "住宿3晚近起點 ~HK$200", "4.5K報名費 ~HK$154"],
           accent=TERRA, img_h=480)
 
 make_card("card-friends.png", "assets/hero_cover.jpg", "RUN TOGETHER",
-          "約埋跑友", ["大人跑全馬・小朋友親子跑", "48,000人一齊跑入曼谷心臟", "衝線即刻泰式盛宴慶功"],
+          "約埋屋企人", ["爸爸媽媽細路一齊跑", "首都馬拉松週末氛圍", "衝線即刻泰式盛宴慶功"],
           accent=GREEN, img_h=500)
 
 print("done ->", OUT)

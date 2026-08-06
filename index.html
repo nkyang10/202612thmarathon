@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>曼谷快閃雙馬 2026 — Amazing Thailand Marathon Bangkok 跑旅企劃</title>
-<meta name="description" content="一個週末，兩場馬拉松。請1日假，快閃4日。Amazing Thailand Marathon Bangkok 2026 跑旅套票企劃。">
+<title>曼谷親子快閃跑 2026 — Amazing Thailand Marathon Bangkok 4.5K 跑旅企劃</title>
+<meta name="description" content="4.5K 親子跑，人人都做到。請1日假，快閃4日。Amazing Thailand Marathon Bangkok 2026 親子跑旅企劃。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
@@ -31,7 +31,6 @@
   h1,h2,h3,.serif{font-family:'Noto Serif TC',serif;}
   .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
 
-  /* ===== NAV ===== */
   nav{
     position:fixed;top:0;left:0;right:0;z-index:50;
     background:rgba(247,244,239,.92);backdrop-filter:blur(6px);
@@ -44,7 +43,6 @@
   nav .links a{color:var(--ink);text-decoration:none;border-bottom:2px solid transparent;padding-bottom:2px;}
   nav .links a:hover{border-bottom-color:var(--terra);color:var(--terra);}
 
-  /* ===== HERO ===== */
   header.hero{
     position:relative;min-height:88vh;display:flex;align-items:flex-end;
     background:linear-gradient(rgba(0,0,0,.15),rgba(0,0,0,.68)),url('assets/hero_cover.jpg') center/cover no-repeat;
@@ -72,13 +70,11 @@
   .btn-ghost:hover{background:rgba(255,255,255,.12);}
   .hero .meta-line{margin-top:30px;font-size:13px;color:#e8d5c2;letter-spacing:1px;}
 
-  /* ===== SECTIONS ===== */
   section{padding:88px 0;}
   .kicker{font-size:13px;letter-spacing:3px;color:var(--terra);text-transform:uppercase;margin-bottom:12px;}
   .sec-title{font-size:clamp(26px,4vw,40px);font-weight:900;color:var(--ink);line-height:1.3;margin-bottom:18px;}
   .sec-intro{max-width:760px;color:#5a574f;font-size:17px;margin-bottom:40px;}
 
-  /* ===== SELLING POINTS ===== */
   .sp-list{border-top:1px solid var(--line);}
   .sp-item{display:grid;grid-template-columns:auto 1fr;gap:26px;padding:30px 6px;border-bottom:1px solid var(--line);align-items:start;}
   .sp-icon{width:54px;height:54px;flex:none;border-radius:12px;background:var(--paper-2);display:flex;align-items:center;justify-content:center;color:var(--green);}
@@ -90,14 +86,12 @@
   .sp-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;}
   .chip{font-size:12.5px;color:var(--green);background:rgba(62,92,75,.08);border:1px solid rgba(62,92,75,.2);padding:4px 12px;border-radius:6px;}
 
-  /* ===== RACE FACTS ===== */
   .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;}
   .fact{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:22px 20px;}
   .fact .lbl{font-size:12.5px;letter-spacing:2px;color:var(--green-soft);margin-bottom:8px;}
   .fact .val{font-family:'Noto Serif TC',serif;font-size:21px;font-weight:700;color:var(--ink);line-height:1.4;}
   .fact .val small{display:block;font-size:13px;color:#8a857b;font-weight:400;margin-top:4px;}
 
-  /* ===== PACKAGES ===== */
   .pkgs{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;}
   .pkg{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:28px 24px;position:relative;}
   .pkg.feature{border-color:var(--terra);box-shadow:0 6px 24px rgba(192,95,60,.12);}
@@ -109,7 +103,6 @@
   .pkg ul li:last-child{border-bottom:none;}
   .pkg ul li::before{content:"";position:absolute;left:4px;top:15px;width:8px;height:8px;border-radius:2px;background:var(--green);}
 
-  /* ===== ITINERARY ===== */
   .itin{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;}
   .day{background:var(--paper-2);border-radius:12px;padding:22px 20px;}
   .day .dhead{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:10px;}
@@ -120,7 +113,6 @@
   .day li::before{content:"";position:absolute;left:2px;top:15px;width:7px;height:7px;border-radius:50%;background:var(--terra-soft);}
   .day li b{color:var(--ink);}
 
-  /* ===== COST ===== */
   .cost{background:var(--white);border:1px solid var(--line);border-radius:14px;max-width:640px;overflow:hidden;}
   .cost table{width:100%;border-collapse:collapse;}
   .cost td{padding:13px 22px;border-bottom:1px solid var(--line);font-size:15px;}
@@ -129,7 +121,6 @@
   .cost tr.total td{background:var(--paper-2);font-weight:700;font-size:17px;color:var(--green);}
   .note{font-size:13px;color:#8a857b;margin-top:10px;}
 
-  /* ===== CTA ===== */
   .final{background:var(--green);color:var(--white);border-radius:20px;padding:64px 40px;text-align:center;}
   .final h2{font-size:clamp(26px,4vw,40px);font-weight:900;margin-bottom:14px;}
   .final p{opacity:.9;max-width:620px;margin:0 auto 30px;}
@@ -151,7 +142,7 @@
 
 <nav>
   <div class="wrap">
-    <div class="brand">曼谷快閃雙馬<small>ATMBKK 2026 跑旅企劃</small></div>
+    <div class="brand">曼谷親子快閃跑<small>ATMBKK 2026 4.5K 跑旅企劃</small></div>
     <div class="links">
       <a href="#sell">賣點</a>
       <a href="#facts">賽事</a>
@@ -165,67 +156,67 @@
 <header class="hero">
   <div class="wrap hero-inner">
     <div class="eyebrow">AMAZING THAILAND MARATHON · BANGKOK</div>
-    <h1>一個週末<br>兩場馬拉松<span class="thin">。</span></h1>
-    <p class="sub">星期六跑半馬，星期日跑全馬。曼谷官方首都馬拉松，一次過喺一個週末完成兩場。</p>
-    <div class="dates">2026.11.28（六）21K ／ 2026.11.29（日）42K・10K・4.5K</div>
+    <h1>一家大細<br>跑入曼谷<span class="thin">。</span></h1>
+    <p class="sub">4.5K 親子跑，人人都做到。唔計時、唔競速、冇壓力 —— 大人細路老幼一齊玩。</p>
+    <div class="dates">2026.11.29（日）06:45 · 4.5K Family Run @ Sanam Luang</div>
     <div class="cta">
       <a class="btn btn-primary" href="#packages">睇套票</a>
       <a class="btn btn-ghost" href="docs/itinerary.md">行程詳情</a>
     </div>
-    <div class="meta-line">World Athletics 世界田徑認證 · 48,000 跑手 · Ambassador: Eliud Kipchoge</div>
+    <div class="meta-line">首都馬拉松週末盛會 · 48,000 跑手 · Ambassador: Eliud Kipchoge</div>
   </div>
 </header>
 
 <section id="sell">
   <div class="wrap">
     <div class="kicker">Why This Trip</div>
-    <h2 class="sec-title">點解要去曼谷跑呢一場？</h2>
-    <p class="sec-intro">呢個唔係普通一場馬拉松——係一個週末內兩場賽事，而且係亞洲極少數「快閃都玩到」嘅首都馬拉松。</p>
+    <h2 class="sec-title">點解帶家人去曼谷跑 4.5K？</h2>
+    <p class="sec-intro">4.5K 親子跑係泰國最大馬拉松週末入面最親民嘅項目 —— 距離短、唔計時、人人都做到。跑完仲有大把時間歎曼谷。</p>
 
     <div class="sp-list">
       <div class="sp-item">
+        <div class="sp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div>
+        <div>
+          <div class="sp-num">01 · 4.5K 親子跑</div>
+          <h3>人人都<em>做到</em></h3>
+          <p>4.5K 距離短、唔計時、唔競速，行住跑都得。大人細路老幼一齊參與，冇任何壓力，係最親民嘅親子運動體驗。</p>
+          <div class="sp-tags"><span class="chip">唔計時</span><span class="chip">老少咸宜</span><span class="chip">行+跑</span></div>
+        </div>
+      </div>
+      <div class="sp-item">
         <div class="sp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/></svg></div>
         <div>
-          <div class="sp-num">01 · 雙馬連賽</div>
-          <h3>一個週末，<em>兩場馬拉松</em></h3>
-          <p>星期六 21K 半馬（04:00 起步）、星期日 42K 全馬（02:00 起步）。全亞洲首都馬拉松之中，極少有賽事可以喺同一週末連跑兩場——一場攞半馬時間，一場衝全馬 PB。</p>
-          <div class="sp-tags"><span class="chip">半馬+全馬</span><span class="chip">兩日兩場</span><span class="chip">雙馬挑戰</span></div>
-        </div>
-      </div>
-      <div class="sp-item">
-        <div class="sp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5M4 19h16M4 19l4-6 4 3 5-8"/></svg></div>
-        <div>
-          <div class="sp-num">02 · 極致抵玩</div>
-          <h3>請<em>1日</em>假，快閃<em>4日</em></h3>
-          <p>星期五晚放工直接飛（唔使請假），星期六日跑兩場，星期一晚返港。全程只請 1 日假——香港人最鍾意嘅「請1放4」假期最大化。</p>
-          <div class="sp-tags"><span class="chip">請1放4</span><span class="chip">週末快閃</span><span class="chip">直航3小時</span></div>
-        </div>
-      </div>
-      <div class="sp-item">
-        <div class="sp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 16l-4.9 2.6.9-5.5-4-3.9L9.5 8z"/></svg></div>
-        <div>
-          <div class="sp-num">03 · 平坦快路</div>
-          <h3>凌晨<em>2點</em>起步，涼快<em>破PB</em></h3>
-          <p>官方認證「Fast &amp; Flat」平坦快路，凌晨時段起步避開曼谷日間高溫，涼爽跑全馬。世界田徑認證賽道，破 PB 嘅最佳舞台。</p>
-          <div class="sp-tags"><span class="chip">世界田徑認證</span><span class="chip">Fast &amp; Flat</span><span class="chip">凌晨起步避暑</span></div>
+          <div class="sp-num">02 · 親子一齊衝線</div>
+          <h3>大人細路<em>一齊玩</em></h3>
+          <p>起點同終點都喺 Sanam Luang 皇家田廣場，爸爸媽媽同小朋友手拖手一齊跑，衝線嗰刻全家一齊慶祝，係一家人嘅共同回憶。</p>
+          <div class="sp-tags"><span class="chip">家庭同樂</span><span class="chip">共同回憶</span><span class="chip">一齊衝線</span></div>
         </div>
       </div>
       <div class="sp-item">
         <div class="sp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1m4 0h1M9 13h1m4 0h1M9 17h1m4 0h1"/></svg></div>
         <div>
-          <div class="sp-num">04 · 跑入首都心臟</div>
-          <h3>大皇宮・倫披尼・<em>曼谷地標</em></h3>
-          <p>起終點喺 Sanam Luang 皇家田廣場，沿途經過大皇宮、民主紀念碑、勝利紀念碑、倫披尼公園、King Power Mahanakhon——一趟跑勻曼谷最重要嘅風景。</p>
-          <div class="sp-tags"><span class="chip">大皇宮</span><span class="chip">皇家田廣場</span><span class="chip">首都名勝</span></div>
+          <div class="sp-num">03 · 首都馬拉松氛圍</div>
+          <h3>跑入<em>曼谷心臟</em></h3>
+          <p>身處泰國最大馬拉松週末（48,000 跑手），沿途經過大皇宮、民主紀念碑、倫披尼公園等曼谷地標，完賽有泰式盛宴、80 攤 Expo。</p>
+          <div class="sp-tags"><span class="chip">世界田徑認證</span><span class="chip">曼谷地標</span><span class="chip">泰式完賽盛宴</span></div>
+        </div>
+      </div>
+      <div class="sp-item">
+        <div class="sp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5M4 19h16M4 19l4-6 4 3 5-8"/></svg></div>
+        <div>
+          <div class="sp-num">04 · 極致抵玩</div>
+          <h3>請<em>1日</em>假，快閃<em>4日</em></h3>
+          <p>星期五晚放工直接飛（唔使請假），星期六玩足一日，星期日跑 4.5K，星期一晚返港。全程只請 1 日假 —— 香港人最鍾意嘅「請1放4」。</p>
+          <div class="sp-tags"><span class="chip">請1放4</span><span class="chip">週末快閃</span><span class="chip">直航3小時</span></div>
         </div>
       </div>
       <div class="sp-item">
         <div class="sp-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg></div>
         <div>
-          <div class="sp-num">05 · 完賽即盛宴</div>
-          <h3>衝線即刻<em>泰式大餐</em></h3>
-          <p>終點有泰式文化美食完賽盛宴、80 攤位 Expo、按摩、夜市——跑完即刻享受曼谷最正嘅食買玩。跑步 + 旅行，一次過滿足。</p>
-          <div class="sp-tags"><span class="chip">泰式盛宴</span><span class="chip">80攤Expo</span><span class="chip">夜市按摩</span></div>
+          <div class="sp-num">05 · 曼谷食買玩</div>
+          <h3>大皇宮・夜市・<em>芒果糯米飯</em></h3>
+          <p>跑完 4.5K 仲有大量時間：大皇宮打卡、河畔夜市、泰式按摩、芒果糯米飯。跑步 + 親子旅行，一個週末全部滿足。</p>
+          <div class="sp-tags"><span class="chip">大皇宮</span><span class="chip">夜市</span><span class="chip">泰式美食</span></div>
         </div>
       </div>
     </div>
@@ -235,17 +226,17 @@
 <section id="facts" style="background:var(--paper-2);">
   <div class="wrap">
     <div class="kicker">Race Facts</div>
-    <h2 class="sec-title">賽事資料</h2>
-    <p class="sec-intro">Amazing Thailand Marathon Bangkok 2026，第 9 屆，曼谷官方首都馬拉松，由 Toyota 冠名。第 28–29 屆全城封路兩日，48,000 跑手 + 80,000 觀眾。</p>
+    <h2 class="sec-title">4.5K 親子跑賽事資料</h2>
+    <p class="sec-intro">Amazing Thailand Marathon Bangkok 2026，第 9 屆，曼谷官方首都馬拉松，由 Toyota 冠名。你跑嘅 4.5K 親子跑喺星期日，全程輕鬆無計時。</p>
     <div class="facts">
-      <div class="fact"><div class="lbl">認證</div><div class="val">世界田徑<small>World Athletics 認證</small></div></div>
-      <div class="fact"><div class="lbl">規模</div><div class="val">48,000<small>跑手 / 80,000 觀眾</small></div></div>
-      <div class="fact"><div class="lbl">大使</div><div class="val">Kipchoge<small>馬拉松之王</small></div></div>
-      <div class="fact"><div class="lbl">賽道</div><div class="val">Fast &amp; Flat<small>平坦快路</small></div></div>
-      <div class="fact"><div class="lbl">42K 起步</div><div class="val">02:00<small>週日 凌晨</small></div></div>
-      <div class="fact"><div class="lbl">21K 起步</div><div class="val">04:00<small>週六 凌晨</small></div></div>
-      <div class="fact"><div class="lbl">時限</div><div class="val">42K 7h / 21K 3.5h<small>電子晶片計時</small></div></div>
+      <div class="fact"><div class="lbl">項目</div><div class="val">4.5K 親子跑<small>Family Run</small></div></div>
+      <div class="fact"><div class="lbl">日期</div><div class="val">11/29（日）<small>06:45 起步</small></div></div>
+      <div class="fact"><div class="lbl">時限</div><div class="val">1 小時<small>行+跑都夠</small></div></div>
+      <div class="fact"><div class="lbl">計時</div><div class="val">無<small>親子玩樂性質</small></div></div>
       <div class="fact"><div class="lbl">起終點</div><div class="val">Sanam Luang<small>皇家田廣場</small></div></div>
+      <div class="fact"><div class="lbl">規模</div><div class="val">48,000<small>全週末跑手</small></div></div>
+      <div class="fact"><div class="lbl">認證</div><div class="val">世界田徑<small>World Athletics</small></div></div>
+      <div class="fact"><div class="lbl">報名費</div><div class="val">฿700<small>≈ HK$154</small></div></div>
     </div>
   </div>
 </section>
@@ -254,45 +245,36 @@
   <div class="wrap">
     <div class="kicker">Packages</div>
     <h2 class="sec-title">跑旅套票</h2>
-    <p class="sec-intro">四款套票，迎合唔同跑手。報名費唔包喺機票酒店內——我哋建議自己喺官方網站第一身報名，最平最直接，唔使畀代理加價。</p>
+    <p class="sec-intro">以 4.5K 親子跑為主，大人亦可加配其他距離。報名費唔包喺機票酒店內 —— 建議自己喺官方網站第一身報名，最平最直接。</p>
     <div class="pkgs">
       <div class="pkg feature">
         <div class="flag">主力推介</div>
-        <h3>A. 雙馬挑戰版</h3>
-        <div class="dist">21K（六）+ 42K（日）</div>
+        <h3>A. 親子同樂版</h3>
+        <div class="dist">4.5K（日）+ 大人可加 10K/42K</div>
         <ul>
-          <li>一個週末兩場馬拉松</li>
-          <li>半馬熱身 + 全馬衝 PB</li>
+          <li>一家人一齊跑 4.5K</li>
+          <li>大人想挑戰可加報 42K</li>
           <li>只請 1 日假</li>
-          <li>勁人限定，體能要求高</li>
+          <li>親子+挑戰兩者兼得</li>
         </ul>
       </div>
       <div class="pkg">
-        <h3>B. 全馬PB版</h3>
-        <div class="dist">42K（日）</div>
+        <h3>B. 純4.5K版</h3>
+        <div class="dist">4.5K（日）</div>
         <ul>
-          <li>專注一場全馬</li>
-          <li>凌晨 02:00 涼快起步</li>
-          <li>平坦快路衝 PB</li>
-          <li>最適合想破紀錄嘅跑手</li>
+          <li>淨係輕鬆跑 4.5K</li>
+          <li>最無壓力</li>
+          <li>餘下時間盡情歎曼谷</li>
+          <li>適合第一次跑/帶細路</li>
         </ul>
       </div>
       <div class="pkg">
-        <h3>C. 半馬版</h3>
-        <div class="dist">21K（六）</div>
+        <h3>C. 升級挑戰版</h3>
+        <div class="dist">大人 42K + 小朋友 4.5K</div>
         <ul>
-          <li>輕量入門</li>
-          <li>週六起步，餘下時間遊玩</li>
-          <li>適合初跑 / 想玩埋旅遊</li>
-        </ul>
-      </div>
-      <div class="pkg">
-        <h3>D. 家庭同樂版</h3>
-        <div class="dist">42K / 10K + 4.5K 親子</div>
-        <ul>
-          <li>大人跑 10K 或全馬</li>
-          <li>小朋友跑 4.5K 親子跑</li>
-          <li>一家大細一齊玩</li>
+          <li>大人凌晨 02:00 跑全馬</li>
+          <li>小朋友 06:45 跑親子</li>
+          <li>一家各自精彩</li>
         </ul>
       </div>
     </div>
@@ -314,27 +296,27 @@
         </ul>
       </div>
       <div class="day">
-        <div class="dhead"><span class="dnum">六</span><span class="dname">28/11 半馬日</span></div>
+        <div class="dhead"><span class="dnum">六</span><span class="dname">28/11 玩樂日</span></div>
         <ul>
-          <li><b>04:00</b> 21K 半馬起步</li>
-          <li>完賽泰式早餐</li>
-          <li>按摩・Expo・夜市</li>
-          <li><b>21:00</b> 早睡備戰</li>
+          <li>大皇宮・玉佛寺</li>
+          <li>河畔・Expo</li>
+          <li>泰式按摩・夜市</li>
+          <li>早抖備賽</li>
         </ul>
       </div>
       <div class="day">
-        <div class="dhead"><span class="dnum">日</span><span class="dname">29/11 全馬日</span></div>
+        <div class="dhead"><span class="dnum">日</span><span class="dname">29/11 4.5K親子跑</span></div>
         <ul>
-          <li><b>02:00</b> 42K 全馬起步</li>
-          <li>完賽泰式慶功宴</li>
-          <li>賽後輕鬆遊覽</li>
+          <li><b>06:45</b> 4.5K 起步</li>
+          <li>一家衝線・泰式盛宴</li>
+          <li>下午輕鬆遊覽</li>
         </ul>
       </div>
       <div class="day">
         <div class="dhead"><span class="dnum">一</span><span class="dname">30/11 返港</span></div>
         <ul>
-          <li>大皇宮・玉佛寺</li>
-          <li>午餐・最後購物</li>
+          <li>購物・最後景點</li>
+          <li>午餐・手信</li>
           <li><b>19:45</b> UO703 返港</li>
           <li><b>23:40</b> 抵香港</li>
         </ul>
@@ -347,15 +329,14 @@
   <div class="wrap">
     <div class="kicker">Budget</div>
     <h2 class="sec-title">成本預算（每人）</h2>
-    <p class="sec-intro">以下係雙馬連報嘅大概預算。機票酒店為實時數據，報名費為官方 Regular 價。</p>
+    <p class="sec-intro">以下係 4.5K 親子跑嘅大概預算。機票酒店為實時數據，報名費為官方 Regular 價。</p>
     <div class="cost">
       <table>
         <tr><td>機票來回（UO734 + UO703 直航）</td><td class="amt">~HK$1,814</td></tr>
         <tr><td>住宿 3 晚（近起點經濟之選）</td><td class="amt">~HK$180–210</td></tr>
-        <tr><td>報名費 42K 全馬</td><td class="amt">฿1,600 ≈ HK$350</td></tr>
-        <tr><td>報名費 21K 半馬</td><td class="amt">฿1,400 ≈ HK$308</td></tr>
+        <tr><td>報名費 4.5K 親子跑</td><td class="amt">฿700 ≈ HK$154</td></tr>
         <tr><td>交通 / 膳食 / 按摩 / 雜費</td><td class="amt">~HK$1,100</td></tr>
-        <tr class="total"><td>總計（雙馬連報）</td><td class="amt">~HK$3,700</td></tr>
+        <tr class="total"><td>總計（4.5K）</td><td class="amt">~HK$3,300</td></tr>
       </table>
     </div>
     <div class="note">* 價錢會浮動，提早 booking + 早鳥報名慳更多。泰銖兌港元約 ฿1 ≈ HK$0.22。</div>
@@ -365,24 +346,24 @@
 <section>
   <div class="wrap">
     <div class="final">
-      <h2>想同 Kipchoge 跑同一條路？</h2>
-      <p>Amazing Thailand Marathon Bangkok 2026 報名由 2026年7月3日 至 10月31日。早鳥最抵，額滿即止。曼谷對香港護照免簽，直航 3 小時即到。</p>
+      <h2>一家大細，衝線曼谷。</h2>
+      <p>Amazing Thailand Marathon Bangkok 2026 報名由 2026年7月3日 至 10月31日。4.5K 親子跑 Regular ฿700。曼谷對香港護照免簽，直航 3 小時即到。</p>
       <div class="cta" style="justify-content:center;">
         <a class="btn btn-primary" href="https://amazingthailandmarathon.com" target="_blank">去官方網站報名</a>
         <a class="btn btn-ghost" href="docs/itinerary.md">下載行程</a>
       </div>
       <div class="steps">
-        <span><b>1・報名</b>官方網 42K / 21K</span>
+        <span><b>1・報名</b>官方網 4.5K</span>
         <span><b>2・訂機票</b>HK Express 直航</span>
         <span><b>3・訂酒店</b>近 Sanam Luang</span>
-        <span><b>4・開跑</b>11月28–29</span>
+        <span><b>4・開跑</b>11月29日</span>
       </div>
     </div>
   </div>
 </section>
 
 <footer>
-  <div>曼谷快閃雙馬 2026 · 跑旅企劃企劃（非官方）</div>
+  <div>曼谷親子快閃跑 2026 · 跑旅企劃（非官方）</div>
   <div class="src">賽事資料來源：amazingthailandmarathon.com · 機票/住宿：trvl 實時數據 · 圖片：官方賽事宣傳</div>
 </footer>
 
