@@ -160,6 +160,15 @@
   .faq-item[open] summary::after{content:"－";}
   .faq-item .faq-a{padding:0 22px 18px;color:#5a574f;font-size:15px;border-top:1px dashed var(--line);padding-top:14px;}
 
+  /* ===== GALLERY (曼谷食買玩) ===== */
+  .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px;}
+  .gal-item{position:relative;border-radius:14px;overflow:hidden;background:var(--white);border:1px solid var(--line);}
+  .gal-item img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover;}
+  .gal-item figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;background:linear-gradient(transparent,rgba(0,0,0,.72));color:#fff;font-size:15px;font-weight:700;}
+  .gal-item figcaption small{display:block;font-weight:400;font-size:12px;color:#e8d5c2;margin-top:2px;}
+  .gal-cats{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px;}
+  .gal-cat{font-size:13px;color:var(--green);background:rgba(62,92,75,.08);border:1px solid rgba(62,92,75,.2);padding:6px 14px;border-radius:8px;}
+
   @media(max-width:640px){
     nav .links{display:none;}
     .sp-item{grid-template-columns:1fr;gap:14px;}
@@ -353,6 +362,27 @@
           <li><b>23:40</b> 抵香港</li>
         </ul>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="bkk" style="background:var(--paper-2);">
+  <div class="wrap">
+    <div class="kicker">Beyond the Run</div>
+    <h2 class="sec-title">曼谷食買玩</h2>
+    <p class="sec-intro">除咗 4.5K 親子跑，曼谷仲有大量嘢玩 —— 景點、美食、購物、放鬆，一個週末全部滿足。</p>
+    <div class="gal-cats">
+      <span class="gal-cat">景點</span><span class="gal-cat">飲食</span><span class="gal-cat">購物</span><span class="gal-cat">放鬆</span>
+    </div>
+    <div class="gallery">
+      <figure class="gal-item"><img src="assets/bkk_gallery/grand_palace.png" alt="大皇宮" loading="lazy"><figcaption>大皇宮<small>景點 · 曼谷必去</small></figcaption></figure>
+      <figure class="gal-item"><img src="assets/bkk_gallery/wat_arun.png" alt="鄭王廟" loading="lazy"><figcaption>鄭王廟 Wat Arun<small>景點 · 日落金塔</small></figcaption></figure>
+      <figure class="gal-item"><img src="assets/bkk_gallery/river_cruise.png" alt="昭披耶河遊船" loading="lazy"><figcaption>昭披耶河遊船<small>景點 · 兩岸風光</small></figcaption></figure>
+      <figure class="gal-item"><img src="assets/bkk_gallery/food.png" alt="泰式美食" loading="lazy"><figcaption>泰式美食<small>飲食 · 冬陰功炒河</small></figcaption></figure>
+      <figure class="gal-item"><img src="assets/bkk_gallery/sticky_rice.png" alt="芒果糯米飯" loading="lazy"><figcaption>芒果糯米飯<small>飲食 · 必食甜品</small></figcaption></figure>
+      <figure class="gal-item"><img src="assets/bkk_gallery/night_market.png" alt="夜市" loading="lazy"><figcaption>夜市<small>飲食 · 邊行邊食</small></figcaption></figure>
+      <figure class="gal-item"><img src="assets/bkk_gallery/shopping.png" alt="洽圖洽市集" loading="lazy"><figcaption>洽圖洽週末市集<small>購物 · 手信精品</small></figcaption></figure>
+      <figure class="gal-item"><img src="assets/bkk_gallery/massage.png" alt="泰式按摩" loading="lazy"><figcaption>泰式按摩<small>放鬆 · 跑完回血</small></figcaption></figure>
     </div>
   </div>
 </section>
