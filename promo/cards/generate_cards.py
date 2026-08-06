@@ -77,15 +77,15 @@ def make_card(name, image_path, kicker, title, body, accent=TERRA, img_h=520):
 
 # --- cards ---
 make_card("card-announce.png", "assets/hero_cover.jpg", "SAVE THE DATE",
-          "曼谷親子快閃跑", ["4.5K 親子跑，人人都做到", "大人細路一齊衝線", "請1日假，快閃4日"],
+          "曼谷親子快閃跑", ["4.5K 親子跑，人人都做到", "大人細路一齊衝線", "請1日假，快閃3日"],
           accent=TERRA)
 
 make_card("card-races.png", "assets/save1.jpg", "FAMILY RUN",
           "4.5K 親子跑", ["11/29（日）06:45 起步", "唔計時・行+跑都得", "一家人齊齊玩"],
           accent=GREEN, img_h=500)
 
-make_card("card-leave.png", "assets/save6.jpg", "請1放4",
-          "快閃4日", ["星期五晚放工飛", "星期六玩足一日", "星期一晚返港・只請 1 日假"],
+make_card("card-leave.png", "assets/save6.jpg", "請1放3",
+          "快閃3日", ["星期五晚放工飛", "星期六玩足一日", "星期一晚返港・只請 1 日假"],
           accent=GOLD, img_h=500)
 
 make_card("card-value.png", "assets/header.jpg", "抵玩之旅",

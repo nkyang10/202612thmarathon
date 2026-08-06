@@ -25,7 +25,7 @@ ComfyUI z_image_turbo 出圖 → MiniMax H3 I2V 動畫（native audio）。
 **z_image_turbo**: A family enjoying a Thai food celebration after the run, mango sticky rice and fresh Thai dishes on the table, happy together, warm inviting light, photorealistic, 1280x720
 **H3 motion**: family enjoying Thai food celebration after the run, mango sticky rice, happy together, warm inviting light, gentle camera, no text
 
-## S6 — 請1放4・快閃曼谷
+## S6 — 請1放3・快閃曼谷
 **z_image_turbo**: A relaxed family sightseeing at the Grand Palace and Bangkok riverside, golden afternoon light, light bokeh, happy casual holiday mood, photorealistic, 1280x720
 **H3 motion**: family sightseeing at Grand Palace and river, relaxed holiday, golden afternoon, light bokeh, gentle camera, no text
 

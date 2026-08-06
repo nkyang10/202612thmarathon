@@ -1,6 +1,6 @@
 # 曼谷親子快閃跑 2026 — Amazing Thailand Marathon Bangkok 4.5K 跑旅企劃
 
-**4.5K 親子跑，人人都做到。請1日假，快閃4日。**
+**4.5K 親子跑，人人都做到。請1日假，快閃3日。**
 
 Amazing Thailand Marathon Bangkok 2026（ATMBKK）第 9 屆跑旅企劃。主推 **4.5K 親子跑**（2026年11月29日 06:45，Sanam Luang，唔計時、行+跑都得）。星期五晚放工後飛，星期一晚返港，只請 1 日假。
 
@@ -9,7 +9,7 @@ Amazing Thailand Marathon Bangkok 2026（ATMBKK）第 9 屆跑旅企劃。主推
 |------|------|
 | `index.html` | Landing page（GitHub Pages，休閑專業編輯風） |
 | `info.html` | 賽事資訊頁（報名/距離/起步時間/天氣/成本） |
-| `docs/itinerary.md` | 4日3夜行程詳情 + 成本預算 |
+| `docs/itinerary.md` | 3日3夜行程詳情 + 成本預算 |
 | `downloads/itinerary.pdf` | 行程 PDF（ReportLab 生成） |
 | `promo/CM-storyboard.md` | CM 影片分鏡（9幕・4.5K 親子版） |
 | `promo/cards/*.png` | 社交宣傳卡片（PIL 生成） |

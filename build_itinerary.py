@@ -56,7 +56,7 @@ S = []
 # ---- cover ----
 S.append(Spacer(1, 6*mm))
 S.append(h1("Amazing Thailand Marathon Bangkok 2026"))
-S.append(para("「曼谷親子快閃跑」跑旅企劃 · 4日3夜", size=13, color=TERRA, font="wqyB", space=14))
+S.append(para("「曼谷親子快閃跑」跑旅企劃 · 3日3夜", size=13, color=TERRA, font="wqyB", space=14))
 S.append(rule(TERRA, 1.4))
 S.append(para("<b>4.5K 親子跑</b> — 星期日 06:45 起步，唔計時、行+跑都得，一家大細一齊玩", font="wqyB", size=11.5, color=GREEN))
 S.append(para("日期：2026年11月27日（五）– 11月30日（一）　·　模式：星期五晚放工後飛，星期一晚返港，只請 1 日假", size=10))

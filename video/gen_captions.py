@@ -35,7 +35,7 @@ make_caption("cap02.png", "4.5K 親子跑・11.29 06:45")
 make_caption("cap03.png", "跑入曼谷心臟")
 make_caption("cap04.png", "一家一齊衝線")
 make_caption("cap05.png", "衝線即刻泰式大餐")
-make_caption("cap06.png", "請1日假・快閃4日")
+make_caption("cap06.png", "請1日假・快閃3日")
 make_caption("cap07.png", "夜市・美食・親子時光")
 make_caption("cap08.png", "大人細路・全家同樂")
 
@@ -48,7 +48,7 @@ d.line([0, H-190, W, H-190], fill=(214,163,90,255), width=2)
 lines = [
     ("Amazing Thailand Marathon Bangkok 2026", 30, (240,214,178,255)),
     ("4.5K 親子跑・11.29（日）", 30, (255,255,255,255)),
-    ("一家大細一齊衝線｜請1日假快閃4日", 22, (225,225,218,255)),
+    ("一家大細一齊衝線｜請1日假快閃3日", 22, (225,225,218,255)),
     ("癡LS Group 主辦", 26, (214,163,90,255)),
     ("報名趁早鳥｜amazingthailandmarathon.com", 22, (255,255,255,255)),
 ]
